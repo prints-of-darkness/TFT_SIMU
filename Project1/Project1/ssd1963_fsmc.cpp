@@ -1,5 +1,6 @@
 
 // https://github.com/anothermist/DISPLAYS/tree/master
+// https://github.com/anothermist/DISPLAYS/tree/master/SSD1963_FSMC
 
 #include "ssd1963_fsmc.h"
 

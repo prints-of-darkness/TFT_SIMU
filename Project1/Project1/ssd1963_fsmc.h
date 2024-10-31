@@ -1,6 +1,7 @@
 #pragma once
 
 // https://github.com/anothermist/DISPLAYS/tree/master
+// https://github.com/anothermist/DISPLAYS/tree/master/SSD1963_FSMC
 
 #include "immediate2d.h"
 
