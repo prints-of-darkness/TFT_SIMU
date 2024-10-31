@@ -13,8 +13,8 @@
 											
 #define LSHIFT 0
 
-#define LCD_HEIGHT      480
-#define LCD_WIDTH       800
+#define LCD_HEIGHT      IMM2D_HEIGHT //480
+#define LCD_WIDTH       IMM2D_WIDTH  //800
 
 #define BLACK   0x000000
 #define WHITE   0xFFFFFF
