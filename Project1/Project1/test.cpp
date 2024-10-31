@@ -155,4 +155,5 @@ void lib_tester()
 
 void run() {
 	lib_tester();
+	SaveImage(123); //capture TFT display & save file to desktop.
 }
