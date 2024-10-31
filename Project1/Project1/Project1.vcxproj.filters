@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="fonts">
+      <UniqueIdentifier>{5c71a572-efb9-4c73-9e46-759564634767}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="immediate2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssd1963_fsmc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_3_Picopixel.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_3_Tiny.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_3_TomThumb_Extended.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_5_Org.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_8_Default.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_8_Myke.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_8_Retro.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_8_Sinclair.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_8_Sinclair_Inverted.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_8_Tiny.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Mono.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Mono_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Mono_Bold_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Mono_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Sans.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Sans_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Sans_Bold_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Sans_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Serif.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Serif_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Serif_Bold_Italic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_9_Serif_Italic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Mono.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Mono_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Mono_Bold_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Mono_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Sans.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Sans_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Sans_Bold_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Sans_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Serif.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Serif_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Serif_Bold_Italic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_12_Serif_Italic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Arial.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Arial_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Arial_Italic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Arial_Round.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Default.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_FranklinGothic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Grotesk.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Grotesk_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Hallfetica.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Matrix_Full.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Matrix_Full_Slash.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Matrix_Num.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Nadianne.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_OCR.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Retro.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Segment_16_Full.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Sinclair.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Sinclair_Inverted.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_16_Swiss_Outline.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Mono.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Mono_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Mono_Bold_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Mono_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Sans.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Sans_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Sans_Bold_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Sans_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Serif.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Serif_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Serif_Bold_Italic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_18_Serif_Italic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Grotesk.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Grotesk_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Inconsola.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Matrix_Num.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Mono.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Mono_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Mono_Bold_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Mono_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Sans.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Sans_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Sans_Bold_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Sans_Oblique.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Segment_16_Full.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Serif.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Serif_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Serif_Bold_Italic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_SerifItalic.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Ubuntu.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_24_Ubuntu_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Arial_Num_Plus.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Calibri_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Dingbats.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Grotesk.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Grotesk_Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Matrix_Num.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Segment_7_Full.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Segment_7_Num_Plus.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Segment_16_Full.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Segment_18_Full.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_32_Special.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_40_Segment_16_Full.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_48_Battery.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_48_Segment_16_Num.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_64_Segment_7_Num.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_64_Segment_16_Num.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_96_Segment_7_Num.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_96_Segment_16_Num.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\Font_128_Segment_16_Num.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ssd1963_fsmc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
